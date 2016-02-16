@@ -16,3 +16,8 @@ if (firstName==null || firstName==""||firstName.lenght>=8){
   }  
 }  
 
+function availableRooms() {
+	
+	var totalRooms = d
+	
+}
