@@ -5,15 +5,16 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
         <title>Registration</title>
-        <%@include file="header.jsp"%>
+<link type="text/css" rel="stylesheet" href="resource/main.css"/>
+<script type="text/javascript" src="resource/myscript.js"></script>
 </head>
-<body background="images/home.jpg">
+<body style="background-repeat: no-repeat;background-size: cover; " background="images/home.jpg">
         <form method="post" action="login.jsp">
             <center>
-            <table border="1" width="30%" cellpadding="5">
+            <table class="box" width="30%" cellpadding="5">
                 <thead>
                     <tr>
-                        <th colspan="2">Enter Information Here</th>
+                        <th colspan="2">Registration</th>
                     </tr>
                 </thead>
                 <tbody>
@@ -42,7 +43,7 @@
                         <td><input type="reset" value="Reset" /></td>
                     </tr>
                     <tr>
-                        <td colspan="2"><font color="white">Already registered!!</font><a href='index.jsp'><font color="#00e600">Login Here</font></a></td>
+                        <td colspan="2"><font color="white">Already registered!!</font><a href='home.jsp'><font color="#00e600">Login Here</font></a></td>
                     </tr>
                 </tbody>
             </table>

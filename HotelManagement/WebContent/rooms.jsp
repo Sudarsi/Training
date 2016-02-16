@@ -4,30 +4,14 @@
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
-<style type="text/css">
-	body{
-	background: url("images/rooms.jpg") no-repeat center center fixed;
-	 background-size: cover;
-	}
-</style>
+<script type="text/javascript" src="resource/myscript.js"></script>
 <title>Rooms Selection</title>
 </head>
-<body>
+<body style="background-repeat: no-repeat;background-size: cover;" background="images/rooms.jpg">
 <ul>
 <li style="list-style: none"><button type="button" onclick="acRooms()">A/C Rooms</button> </li>
 <li style="list-style: none"><button type="button" onclick="nonAcRooms()">Non A/C </button></li>
 </ul>
-<script type="text/javascript">
-	function acRooms(){
-			//This confirm method is giving popup window opend with Ok and Cancel buttons
-		if(confirm("These rooms cost above 5000 per day")){
-			//This open mthod is take link and open the new Window
-			window.location.assign("booking.jsp");
-		}
-	}
-	function nonAcRooms(){
-		
-	}
-</script>
+
 </body>
 </html>

@@ -21,3 +21,11 @@ function availableRooms() {
 	var totalRooms = d
 	
 }
+function acRooms(){
+if(confirm("These rooms cost above 5000 per day")){
+	window.location.assign("booking.jsp");
+}
+}
+function nonAcRooms(){
+
+}

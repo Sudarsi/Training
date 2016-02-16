@@ -26,10 +26,10 @@ ul {
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: green;
     position: 150px;
-    margin-left: 40px;
-    margin-right: 40px;
+    margin-left: 150px;
+    margin-right:150px;
+    background-color: gray;
 }
 
 li {
@@ -51,4 +51,14 @@ li a:hover:not(.active) {
 .active {
     background-color: #4CAF50;
     background-position: 100px;
+}
+.roomVar{
+	list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    position: 150px;
+    margin-left: 150px;
+    margin-right:150px;
+    background-color: gray;
 }

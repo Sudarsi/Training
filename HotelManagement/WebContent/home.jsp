@@ -4,14 +4,15 @@
 <html>
 <head>
 <title>Home</title>
+<link type="text/css" rel="stylesheet" href="resource/main.css"/>
+<script type="text/javascript" src="resource/myscript.js"></script>
 <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
-<%@include file="header.jsp"%>
 </head>
 
-<body background="images/home.jpg">
+<body style="background-repeat: no-repeat;background-size: cover;" background="images/home.jpg">
         <form method="post" action="login.jsp">
             <center>
-            <table border="1" width="30%" cellpadding="3">
+            <table width="30%" cellpadding="3">
                 <thead>
                     <tr>
                         <th colspan="2">Login Here</th>
@@ -31,7 +32,7 @@
                         <td><input type="reset" value="Reset" /></td>
                     </tr>
                     <tr>
-                        <td colspan="2">Yet Not Registered!! <a href="reg.jsp">Register Here</a></td>
+                        <td colspan="2">Yet Not Registered!! <a href="reg.jsp"><b><font color="#26F3F7">Register Here</font></a></b></td>
                     </tr>
                 </tbody>
             </table>

@@ -13,6 +13,7 @@
   <li><a href="rooms.jsp">Room</a></li>
   <li><a href="Food.jsp">Food</a></li>
   <li><a href="about.jsp">About</a></li>
+  <li><a href="home.jsp">Log In</a>
 </ul>
 
 </body>
